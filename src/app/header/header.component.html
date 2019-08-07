@@ -1,0 +1,86 @@
+<!--
+    <header class="">
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+                
+                <a class="navbar-brand otm-logo" href="#"><span class="invisible">{{ title }}</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContentXL" aria-controls="navbarSupportedContentXL" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContentXL">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <div class="my-2 my-lg-0 form-inline">
+                        <form action="" class="form-inline search-form-header">
+                                <input class="form-control mr-sm-2 search-input-main" type="search" placeholder="Search" aria-label="Search">
+                                <button class="search-btn" type="submit">Search</button>
+                        </form>
+                        <div class="vr"></div>
+                        <a href="http://" class="login-icon">Log in</a>
+                    </div>
+                </div>
+            </nav>
+    </div>
+</header>
+-->
+
+<header class="">
+    <div class="container">
+<nav class="navbar navbar-expand-sm bsnav navbar-dark">
+    
+    <a class="navbar-brand otm-logo" href="#"><span class="invisible">{{ title }}</span></a>
+    <button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse justify-content-sm-end">
+        <ul class="navbar-nav navbar-mobile mr-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Programs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Blog</a>
+            </li>
+        </ul>
+
+        <div class="my-2 my-lg-0 form-inline form-end">
+            <!--<form action="" class="form-inline search-form-header">
+                    <input class="form-control mr-sm-2 search-input-main" type="search" placeholder="Search" aria-label="Search">
+                    <button class="search-btn" type="submit">Search</button>
+            </form>-->
+            <!-- Search Expand -->
+            <form class="searchbox">
+                    <input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+                    <input type="submit" class="searchbox-submit" value="">
+                    <button class="search-btn searchbox-icon" type="submit">Search</button>
+                </form>
+            <!-- Search Expand END -->
+            <div class="vr"></div>
+            <a href="http://" class="login-icon">Log in</a>
+        </div>
+    </div>
+</nav>
+</div>
+</header>
+
+<div class="bsnav-mobile">
+    <div class="bsnav-mobile-overlay">
+    <div class="navbar"></div>
+    </div>
+</div>

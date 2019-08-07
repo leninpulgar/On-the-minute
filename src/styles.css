@@ -1,0 +1,428 @@
+/* You can add global styles to this file, and also import other style files */
+/* General */
+.cn {
+    display: flex;
+
+    align-items: center; 
+  }
+.full-h{
+    height:768px;
+}
+/* Site */
+.main-carousel{
+    background:url(src/app/header/background/otmbackground.png) center no-repeat;
+    background-size:cover;
+    min-height:768px;
+
+    padding-top:2em;
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+}
+.otm-logo{
+    background:url(src/app/header/icons/otmlogo.svg) center no-repeat !important;
+    height:2em;
+    display: flex;
+    background-size:contain !important;
+}
+
+.slide-info h1{
+    color:#752F8A;
+    font: size 46;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+.slide-info small{
+    color:#fff;
+    font:size 20;
+    font-weight: bold;
+    font-family: "Montserrat";
+    margin-bottom:2em;
+}
+
+/* buttons */
+.slide-info button{
+    border:2px solid #752F8A;
+    padding:1em .8em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    border-radius: 10px;
+    width:15em;
+    text-transform: uppercase;
+    font: size 16;
+}
+
+
+.free-trial{
+    background-color:#752F8A;
+    color:#fff;
+    margin-right:2em;
+    transition: background-color .3s;
+}
+.free-trial:hover{
+    background-color:#612672;
+}
+
+button.login{
+    color:#752F8A !important;
+    background-color:transparent;
+
+    transition:all .3s;
+}
+button.login:hover{
+    background-color: #752F8A;
+    color:#fff !important;
+}
+/* buttons end */
+
+.login a{
+    color: #752F8A;
+}
+
+.main-carousel small{
+    font-size:20px;
+}
+
+/* Section 2 - HOME */
+.otm-h2-icon, .otm-h2{
+    color:#752F8A;
+    font-weight:700;
+    font-family: "Montserrat";
+    font-size:32px;
+    text-align: center;
+    margin-bottom:1em;
+}
+.otm-h2-icon::before{
+    content:'';
+    display:flex;
+    margin:0 auto;
+    background:url(src/app/header/icons/otmlogomin.svg) center no-repeat;
+    background-size:contain;
+    height:1.5em;
+    width:1.5em;;
+
+    margin-top:2em;
+    margin-bottom:.5em;
+}
+
+.about-otm{
+    padding-bottom: 4em;
+}
+.about-otm p{
+    color:#999999;
+    font-size:24px;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.breaker-home{
+    background:url(src/app/header/background/breaker2.png) center no-repeat;
+    background-size: cover;
+    height:305px;
+    width:100%;
+    display:flex;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    -moz-background-size: auto 100%;
+    -webkit-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+}
+
+/*------------------
+    Meet the Team 
+--------------------*/
+
+.the-team{
+    padding-top:2em;
+    padding-bottom:2em;
+
+    background-color:#F7F7F7;
+}
+
+.team-member{
+    display:block;
+    width:300px;
+    height:auto;
+    margin:0 auto;
+}
+
+.team-circle{
+    display:flex;
+    width:179px;
+    height:179px;
+    border-radius:50%;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 14px 10px 5px 0px rgba(214,214,214,1);
+-moz-box-shadow: 14px 10px 5px 0px rgba(214,214,214,1);
+box-shadow: 14px 10px 5px 0px rgba(214,214,214,1);
+margin:0 auto;
+}
+
+.team-member h5{
+    color:#752F8A;
+    font-weight:bold;
+    font-size:18px;
+    font-family:"Montserrat";
+    text-align:center;
+    margin-top:2em;
+    margin-bottom:1em;
+}
+
+.team-member .card-text{
+    color:#999999;
+    text-align:center;
+    font-size:14px;
+    padding-left:.8em;
+    padding-right:.8em;
+}
+
+.company-position{
+    margin:0 auto;
+    color:#752F8A;
+    font-weight:medium;
+    text-align:center;
+    display:block;
+}
+
+.company-position::before{
+    content:'';
+    display:flex;
+    margin:0 auto;
+    background:url(src/app/header/icons/otmlogomin.svg) center no-repeat;
+    background-size:contain;
+    height:2em;
+    width:2em;;
+
+    margin-top:1em;
+    margin-bottom:.5em;
+}
+
+/*------------------
+    Are you ready? 
+--------------------*/
+.otm-sub{
+    color:#999999;
+    font-weight:500;
+    font-size:.8em;
+}
+.ready{
+    padding-top:2em;
+    padding-bottom:2em;
+}
+
+.plan{
+    background-color:rgba(117,47,138,.5);
+    border-radius:10px;
+    color:#fff;
+    padding:2em;
+
+    transition: all .3s;
+    font-family:"Montserrat";
+}
+
+.plan:hover{
+    background-color:rgba(117,47,138,1)
+}
+
+.plan h5, .plan h3{
+    font-weight:bold;
+}
+.plan h5{
+    text-transform: uppercase;
+}
+.plan h5::before{
+    content:'';
+    display:block;
+    height:1.8em;
+    width:2em;
+    background-size:contain;
+    margin-bottom:.2em;
+}
+.pregnant::before{
+    background:url(src/app/header/icons/pregnant.svg) center no-repeat;
+}
+.day-night::before{
+    background:url(src/app/header/icons/crisscross-position.svg) center no-repeat;
+}
+.gym-program::before{
+    background:url(src/app/header/icons/fitness.svg) center no-repeat;
+}
+.plan ul{
+    list-style-type: none;
+    margin-left:0;
+    padding:0;
+}
+.price-plan{
+    font-size:1.5em;
+}
+
+.gray-text{
+    color:#999999;
+}
+.purple-text{
+    color:#752F8A;
+}
+.ready .gray-text{
+    text-align: center;
+    margin-top:2em;
+    font-weight:500;
+    font-size:1.2em;
+}
+.ready button{
+    border:2px solid #752F8A;
+    padding:1em .8em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    border-radius: 10px;
+    width:15em;
+    text-transform: uppercase;
+    font: size 16;
+    margin:2em auto;
+    display:flex;
+}
+
+.search-input-main{
+    display:none;
+}
+.bsnav{
+    background-color:transparent;
+}
+
+.navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::after, .navbar-toggler .navbar-toggler-icon::before {
+    background-color: #fff;
+}
+.bsnav-mobile .navbar-nav {
+    margin-top: 3em;
+}
+
+/*----------------------------------
+    Newsletter - Don't miss a thing 
+------------------------------------*/
+
+.newsletter{
+    background-color:#2F004F;
+    padding-top:6em;
+    padding-bottom:6em;
+    font-family: "Montserrat";
+}
+.newsletter h2{
+    color:#fff;
+    font-family: "Montserrat";
+    text-align:center;
+}
+.newsletter h2 span{
+    font-size: .8em;
+}
+
+.newsletter label{
+    color:#fff;
+    margin-top:1em;
+}
+.submit-newsletter{
+    display:block;
+    margin:0 auto;
+    margin-top:2em;
+    padding:1em;
+    color:#fff;
+    background-color:#752F8A;
+    font-weight:bold;
+    border:0;
+    border-radius:10px;
+    transition:all .3s;
+}
+.submit-newsletter:hover{
+    background-color:#612672;
+}
+
+.newsletter form{
+    margin:0 auto;
+}
+
+.follow-otm{
+    margin:0 auto;
+    margin-top:2em;
+}
+.follow-otm ul{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    list-style-type: none;
+    justify-content: center;
+    padding-left:0;
+
+    margin-top:2em;
+}
+.follow-otm li{
+    margin:5px;
+}
+.follow-otm li a{
+    display:block;
+    width:35px;
+    height:35px;
+    background-color:#fff;
+    border-radius:50%;
+}
+
+.follow-otm li a.facebook{
+    background: url(src/app/header/icons/001-facebook.svg) center no-repeat;
+    background-size: contain;
+}
+.follow-otm li a.twitter{
+    background: url(src/app/header/icons/013-twitter-1.svg) center no-repeat;
+    background-size: contain;
+}
+.follow-otm li a.instagram{
+    background: url(src/app/header/icons/011-instagram.svg) center no-repeat;
+    background-size: contain;
+}
+.follow-otm li a.youtube{
+    background: url(src/app/header/icons/008-youtube.svg) center no-repeat;
+    background-size: contain;
+}
+.follow-otm li a.pinterest{
+    background: url(src/app/header/icons/pinterest.svg) center no-repeat;
+    background-size: contain;
+}
+
+/*----------------------------------
+    Footer 
+------------------------------------*/
+
+footer{
+    height:100px;
+    font-family: "Montserrat";
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+footer .copyright{
+    color:#752F8A;
+    font-weight:500;
+}
+
+.footer-nav{
+    list-style-type:none;
+    display: inline-block;
+
+    padding: 0;
+    margin: 0;
+    height: 1.5em;
+}
+
+.footer-nav li{
+    float:left;
+}
+
+.footer-nav a{
+    color:#999999;
+    font-weight:500;
+}
