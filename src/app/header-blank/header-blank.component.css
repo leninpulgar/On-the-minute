@@ -1,0 +1,35 @@
+.blank-header{
+    background-color: #752F8A;
+    color:#fff;
+    min-height:100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.blank-header .navbar-nav li a, .blank-header .login-icon, .blank-header .search-btn, .blank-header .vr{
+    color:#fff;
+}
+
+.blank-header .otm-logo{
+    background:url(src/app/header/icons/otmlogo-white.svg) left no-repeat !important;
+    height:2em;
+    width:6em;
+    display: flex;
+    background-size:contain !important;
+}
+
+.blank-header .back-arrow{
+    background:url(src/app/header/icons/back-arrow.svg) left no-repeat !important;
+    height:1.5em;
+    width:1.5em;
+    display: flex;
+    background-size:contain !important;
+}
+
+@media (max-width: 575.98px) {
+    .blank-header{
+        min-height:60px;
+    }
+}

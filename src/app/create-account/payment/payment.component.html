@@ -1,0 +1,99 @@
+<app-header-blank></app-header-blank>
+<div class="banner-payment">
+    <h2>Let’s do this!</h2>
+</div>
+<div class="container payment">
+    <div class="row">
+        <div class="col-12 col-md-12">
+            
+            <div class="col-12 col-md-6 payment-container">
+                <!-- credit card info-->
+          <div id="nav-tab-card" class="tab-pane fade show active">
+            <form role="form">
+              <div class="form-group">
+                <label for="username">Card holder name</label>
+                <input type="text" name="username" placeholder="Jason Doe" required class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="cardNumber">Card number</label>
+                <div class="input-group">
+                  <input type="text" name="cardNumber" placeholder="Your card number" class="form-control card-name" required>
+                  <div class="input-group-append">
+                    <span class="input-group-text text-muted">
+                                                <i class="cc-icon"></i>
+                                                <i class="fa fa-cc-amex mx-1"></i>
+                                                <i class="fa fa-cc-mastercard mx-1"></i>
+                                            </span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 margin-auto">
+                  <div class="form-group">
+                    <label><span class="hidden-xs">Expiration</span></label>
+                    <div class="input-group">
+                      <input type="number" placeholder="MM" name="" class="form-control" required>
+                      <input type="number" placeholder="YY" name="" class="form-control" required>
+                    </div>
+                  </div>
+                </div>
+             </div>
+             <div class="row">
+                <div class="col-sm-4 margin-auto">
+                  <div class="form-group mb-4">
+                    <label data-toggle="tooltip" title="Three-digits code on the back of your card">CVV
+                                                <i class="fa fa-question-circle"></i>
+                                            </label>
+                    <div class="input-group">
+                        <input type="text" required class="form-control cvv-input">
+                        <div class="input-group-append">
+                            <span class="input-group-text text-muted">
+                                                        <i class="cc-lock"></i>
+                                                    </span>
+                        </div>
+                    </div>
+                    
+                  </div>
+                </div>
+
+
+
+              </div>
+              <p class="plan-p">1 Month of On the Minute<br><strong class="price">$15.99</strong></p>
+              <p class="plan-p2">Your card will be charged every month, 7 days from today</p>
+              <button type="submit" class="submit-newsletter">START YOU FREE TRIAL</button>
+              <p class="plan-p3">Confirmation will be sent to:<br><a href="mailto:ejemplo@email.com">ejemplo@email.com</a></p>
+            </form>
+          </div>
+          <!-- End -->
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- Follow the minute -->
+<section class="newsletter">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12">
+
+        <div class="follow-otm col-md-5">
+            <h2><strong>Follow on the minute</strong></h2>
+            <ul>
+                <li><a href="" class="facebook"><span class="invisible">facebook</span></a></li>
+                <li><a href="" class="instagram"><span class="invisible">instagram</span></a></li>
+                <li><a href="" class="twitter"><span class="invisible">twitter</span></a></li>
+                <li><a href="" class="youtube"><span class="invisible">youtube</span></a></li>
+                <li><a href="" class="pinterest"><span class="invisible">pinterest</span></a></li>
+            </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<app-footer></app-footer>

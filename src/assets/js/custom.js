@@ -39,6 +39,26 @@ $(document).ready(function(){
             }
         }
         });
+    /* dashboard */
+    $('#dashie').owlCarousel({
+        center: true,
+        items:2,
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+
+                loop:false,
+            },
+            600:{
+                items:3,
+
+                loop:false,
+            }
+        }
+        });
 });
 
 
@@ -63,13 +83,12 @@ Should be equal the the height of the header
 
 $(window).scroll(function(){
     if ($(window).scrollTop() >= 300) {
-        $('header').addClass('fixed-top purple-top');
+        $('.main-header').addClass('fixed-top purple-top');
     }
     else {
-        $('header').removeClass('fixed-top purple-top');
+        $('.main-header').removeClass('fixed-top purple-top');
     }
 });
-
 
 /* Search Bar */
 $(document).ready(function(){
@@ -110,4 +129,7 @@ $(document).ready(function(){
             $('.searchbox-input').val('');
             $('.searchbox-icon').css('display','block');
         }
-    }*/
+
+
+
+/* Calendar */

@@ -1,0 +1,138 @@
+<app-header-purple></app-header-purple>
+
+
+
+<section class="container blog-post">
+    <div class="row">
+        <div class="col-12 col-md-12 margin-top-7">
+            
+            <h3>Blog</h3>
+
+            <section class="container-blog-post">
+              <div class="row">
+                <div class="col-12 col-md-12 margin-top-7">
+            
+                  <p>hello</p>
+                  <ul>
+                    <li *ngFor="let blog of blog">
+                     <h2>{{blog.title}}</h2>
+                     <p>{{blog.content}}</p>
+                    </li>
+                  </ul>
+            
+                </div>
+              </div>
+            </section>
+            
+            <h2>Fitness for a Better Life, Not a Better Score</h2>
+            <span class="author-data">BY VALENTINA GONZALEZ | 30 JANUARY, 2019</span>
+            <img src="assets/images/blogpost.png" class="card-img-top post-img" alt="exampleimg">
+            
+            <div class="post-content">
+                Let’s start at the beginning. The terms body part split or full body workout are referring to different styles of strength training. Ah, got it! But what do they mean?
+
+Full body workout: you are exercising your whole body, with all muscle groups being used and stimulated in one workout. For example, you combine exercises that use the upper body and lower body, plus the core in one training session.
+
+Body part split: you separate your muscle groups or movement patterns into workouts on different days. For example, you might train chest and back one day, legs and core the next day, shoulders and arms the following day.
+
+Now that you know what they mean, let’s look at the benefits of both and who would train each way.
+
+Full body workout
+The benefits of a full body workout are huge.
+
+To review: 
+Compound exercises = exercises that use more than one muscle group at a time (like a sit-through) Isolated exercises = exercises that only use one muscle group (like a bicep curl)
+
+Third, full body workouts are perfect if your workout schedule is a bit random. If you happen to miss a session at the end of the week, you won’t be missing out on training one specific body part.
+
+Who could train this way? Anyone.
+
+Full body workouts are a fantastic option for beginners because they switch on and wake up all muscle groups, create a base strength in all areas of the body and teach correct technique and movement patterns.
+
+            </div> <!-- Post END -->
+            
+            <h4>Leave a comment (all fields required)</h4>
+            
+            <!-- Newsletter Form -->
+            <form class="col-md-7 comment-box">
+                <div class="form-group">
+                  <label for="yourname">Name</label>
+                  <input type="text" class="form-control" id="yourname" placeholder="Your name">
+                  
+                  <label for="youremail">Email</label>
+                  <input type="email" class="form-control" id="youremail" placeholder="Your email">
+                  
+                  <label for="exampleFormControlTextarea1">Write your comment</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  
+                </div>
+                <input type="submit" value="SUBMIT" class="submit-newsletter">
+            </form>
+            
+        </div>
+    </div>
+</section>
+
+<section class="related-posts container">
+    
+    <h3>Related Blog Posts</h3>
+    
+    <div class="row">
+        <div class="col-12 col-md-4">
+            
+            <div class="card post-card">
+                      <img src="./assets/images/exercise.png" class="card-img-top" alt="exampleimg">
+                      <div class="card-body">
+                        <h5 class="card-title">Fitness for a Better Life, Not a Better Score</h5>
+                        <p class="card-text">BY VALENTINA GONZALEZ | 30 JANUARY, 2019</p>
+                      </div>
+                    </div>
+            
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card post-card">
+                      <img src="./assets/images/exercise.png" class="card-img-top" alt="exampleimg">
+                      <div class="card-body">
+                        <h5 class="card-title">Fitness for a Better Life, Not a Better Score</h5>
+                        <p class="card-text">BY VALENTINA GONZALEZ | 30 JANUARY, 2019</p>
+                      </div>
+                    </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card post-card">
+                      <img src="./assets/images/exercise.png" class="card-img-top" alt="exampleimg">
+                      <div class="card-body">
+                        <h5 class="card-title">Fitness for a Better Life, Not a Better Score</h5>
+                        <p class="card-text">BY VALENTINA GONZALEZ | 30 JANUARY, 2019</p>
+                      </div>
+                    </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- Follow the minute -->
+<section class="newsletter">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-12">
+
+        <div class="follow-otm col-md-5">
+            <h2><strong>Follow on the minute</strong></h2>
+            <ul>
+                <li><a href="" class="facebook"><span class="invisible">facebook</span></a></li>
+                <li><a href="" class="instagram"><span class="invisible">instagram</span></a></li>
+                <li><a href="" class="twitter"><span class="invisible">twitter</span></a></li>
+                <li><a href="" class="youtube"><span class="invisible">youtube</span></a></li>
+                <li><a href="" class="pinterest"><span class="invisible">pinterest</span></a></li>
+            </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<app-footer></app-footer>

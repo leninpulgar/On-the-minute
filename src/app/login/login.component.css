@@ -1,0 +1,35 @@
+.login form{
+    margin:0 auto;
+}
+.login h2{
+    text-align: center;
+    margin-top:6em;
+    font-size:24px;
+    color:#752F8A;
+    font-weight:bold;
+}
+
+.login label{
+    margin-top:1.5em;
+}
+
+.login input[type=submit]{
+    width:100%;
+    margin-bottom: 2em;
+}
+
+.login a{
+    text-align:center;
+    width:100%;
+    display:block;
+    font-weight:500;
+    color:#666666;
+    margin-bottom: 1em;
+}
+
+/* Mobile */
+@media (max-width: 575.98px) {
+    .login h2{
+        margin-top:2em;
+    }
+}

@@ -1,0 +1,103 @@
+.banner-payment{
+    display:flex;
+    height:350px;
+    width:100%;
+    background-color:#752F8A;
+    
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(
+      rgba(47, 0, 79, 0.45), 
+      rgba(47, 0, 79, 0.45)
+    ),url(/assets/images/banner-payment.png) center no-repeat;
+    background-size:cover;
+}
+.banner-payment h2, .banner-payment p{
+    color:#fff;
+    text-align: center;
+    font-family: "Montserrat"
+}
+.banner-payment h2{
+    font-size:32px;
+    font-weight: bold
+}
+.banner-payment p{
+    font-size:18px;
+    font-weight:400;
+}
+
+.payment-container{
+    margin:0 auto;
+    margin-top:2em;
+}
+
+.cc-icon{
+    display:block;
+    width:25px;
+    height:22px;
+    background:url(/assets/images/credit-card.svg) center no-repeat;
+    background-size:contain;
+    margin:0 auto;
+}
+
+.cc-lock{
+    content:'';
+    display:inline-block;
+    width:22px;
+    height:22px;
+    background:url(/assets/images/lock.svg) center no-repeat;
+    background-size:contain;
+    margin:0 auto;
+}
+
+.margin-auto{
+    margin:0 auto;
+}
+
+.card-name, .cvv-input{
+    border-right:0;
+}
+.input-group-append{
+    border-left:0;
+    background-color:transparent;
+}
+.input-group-append span{
+    background-color:transparent;
+}
+
+.plan-p{
+    font-weight:bold;
+    font-size:14px;
+    color:#666666;
+    text-align:center;
+}
+
+.plan-p .price{
+    font-size:24px;
+}
+.plan-p2{
+    color:#999999;
+    font-size:14px;
+    text-align:center;
+}
+.plan-p3{
+    color:#999999;
+    font-size:14px;
+    text-align:center;
+    margin-top:1.5em;
+    margin-bottom: 4em
+}
+.plan-p3 a{
+    color:#666666;
+}
+
+@media (max-width: 575.98px) {
+    
+    .banner-payment{
+        height:200px;
+    }
+    .banner-payment h2{
+        font-size:24px;
+    }
+    
+}

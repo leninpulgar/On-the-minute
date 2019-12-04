@@ -1,0 +1,74 @@
+<header class="mobile-dashboard-top dashboard-top">
+    <div class="container">
+<nav class="navbar navbar-expand-sm bsnav navbar-dark">
+    
+    <a class="navbar-brand otm-logo" routerLink="/"><span class="invisible">{{ title }}</span></a>
+    <button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse justify-content-sm-end">
+        
+        
+        <!-- Dashboard Search Form -->
+
+                  <form class="form-group searchbox-dashboard margin-auto">
+                    <div class="input-group">
+                      
+                      <input type="search" placeholder="Search articles, food, fitness, yoga…" name="search" class="form-control ds-input" onkeyup="buttonUp();" required>
+                      
+                      <div class="input-group-append">
+                            <span class="input-group-text text-muted ds-icon-bg">
+                                <button class="ds-icon" type="submit"><span class="invisible">Search</span></button>
+                            </span>
+                        </div>
+                      
+                    </div>
+                  </form>
+                  
+        <!-- Dashboard Search Form END -->
+        
+        <ul class="navbar-nav navbar-mobile mr-0">
+            <li class="nav-item active">
+                <a class="nav-link blog-icon" routerLink="/">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link videos-icon" routerLink="/programs">Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link favorites-icon" href="#">My favorites</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link account-icon" routerLink="/blog">My account</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+</div>
+</header>
+
+<form class="d-block d-sm-block d-md-none fixed-top-search">
+        <input type="search" placeholder="Search articles, food, fitness, yoga…" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+        <input type="submit" class="searchbox-submit" value="">
+        <button class="search-btn searchbox-icon" type="submit"><span class="invisible">Search</span></button>
+</form>
+
+<div class="bsnav-mobile">
+    <div class="bsnav-mobile-overlay">
+    <div class="navbar"></div>
+    </div>
+</div>
+
+<!-- Mobile fixed bottom bar -->
+        <ul class="d-block d-md-none fixed-bottom-bar">
+            <li class="nav-item active">
+                <a class="nav-link blog-icon-m" routerLink="/">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link videos-icon-m" routerLink="/programs">Videos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link favorites-icon-m" href="#">My favorites</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link account-icon-m" routerLink="/blog">My account</a>
+            </li>
+        </ul>

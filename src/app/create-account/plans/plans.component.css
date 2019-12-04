@@ -1,0 +1,86 @@
+.banner-choose-plan{
+    display:flex;
+    height:350px;
+    width:100%;
+    background-color:#752F8A;
+    
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(
+      rgba(47, 0, 79, 0.45), 
+      rgba(47, 0, 79, 0.45)
+    ),url(/assets/images/banner-pc.png) center no-repeat;
+    background-size:cover;
+    margin-bottom: 2em;
+}
+.banner-choose-plan h2, .banner-choose-plan p{
+    color:#fff;
+    text-align: center;
+    font-family: "Montserrat"
+}
+.banner-choose-plan h2{
+    font-size:32px;
+    font-weight: bold
+}
+.banner-choose-plan p{
+    font-size:18px;
+    font-weight:400;
+}
+/* Form */
+.choose-plan form{
+    margin:0 auto;
+    margin-top:2em;
+    margin-bottom: 4em;
+}
+
+.choose-plan form label{
+    margin-top:1em;
+}
+
+.choose-plan form p{
+    color:#999999;
+    font-size:14px;
+    text-align:center;
+}
+.choose-plan form p a{
+    color:#752F8A;
+}
+.form-check{
+    margin-top:1em;
+}
+.form-check label{
+    margin-top:0 !important;
+}
+
+.submit-newsletter{
+    padding:1em 2.5em 1em 2.5em;
+}
+
+.plans{
+    margin:0 auto;
+}
+
+.program-card{
+    margin-bottom:2em;
+}
+.price{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.have-code{
+    margin:0 auto;
+}
+
+.privacy-policy{
+    color:#999999;
+    margin:0 auto;
+    text-align:center;
+    margin-top:1em;
+    margin-bottom: 3em;
+    width:100%;
+}
+.privacy-policy a{
+    color:#752F8A;
+}

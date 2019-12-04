@@ -1,0 +1,215 @@
+*, html{
+    font-family:"Montserrat";
+}
+.navbar-nav{
+    margin-left:auto;
+}
+
+.navbar-nav li{
+    font-weight:bold;
+}
+.navbar-nav li a{
+    color:#752F8A;
+    font-size:16px;
+}
+
+.login-icon{
+    font-weight: 700;
+    color:#752F8A;
+    font-size:16px
+}
+
+.search-form-header{
+    margin-right:.5em;
+
+}
+
+.search-btn{
+    color:#752F8A;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    background-color:transparent;
+    border:0;
+}
+
+/* icons */
+.search-btn::before{
+    content:'';
+    display:inline-block;
+    background:url(src/app/header/icons/search.svg) center no-repeat;
+    background-size:contain;
+    height:1em;
+    width:1em;
+    vertical-align: middle;
+    margin-right:.5em;
+}
+
+.login-icon::before{
+    content:'';
+    display:inline-block;
+    background:url(src/app/header/icons/login.svg) center no-repeat;
+    background-size:contain;
+    height:1.5em;
+    width:1.5em;
+    vertical-align: middle;
+    margin-right:.5em;
+}
+
+.vr{
+    display:inline-block;
+    height:1.5em;
+    width:2px;
+    background:url(src/app/header/icons/line.svg) center no-repeat;
+    background-size:contain;
+
+    margin-right:.5em;
+    margin-left:.5em;
+}
+
+.form-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* On Scroll - Fixed Top Bar */
+.purple-top{
+    background-color: #752F8A;
+    color:#fff;
+    min-height:100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.purple-top .navbar-nav li a, .purple-top .login-icon, .purple-top .search-btn, .purple-top .vr{
+    color:#fff;
+}
+
+.purple-top .otm-logo{
+    background:url(src/app/header/icons/otmlogo-white.svg) left no-repeat !important;
+    height:2em;
+    width:6em;
+    display: flex;
+    background-size:contain !important;
+}
+
+.purple-top .search-btn::before{
+    content:'';
+    display:inline-block;
+    background:url(src/app/header/icons/search-white.svg) center no-repeat;
+    background-size:contain;
+    height:1em;
+    width:1em;
+    vertical-align: middle;
+    margin-right:.5em;
+}
+
+.purple-top .login-icon::before{
+    content:'';
+    display:inline-block;
+    background:url(src/app/header/icons/login-white.svg) center no-repeat;
+    background-size:contain;
+    height:1.5em;
+    width:1.5em;
+    vertical-align: middle;
+    margin-right:.5em;
+}
+
+.purple-top .vr{
+    background:url(src/app/header/icons/line-white.svg) center no-repeat;
+}
+
+/* 
+Search Bar Expand
+*/
+.searchbox{
+    position:relative;
+    min-width:30px;
+    width:0%;
+    height:30px;
+    float:right;
+    overflow:hidden;
+    
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    -ms-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+}
+
+.searchbox-input{
+    top:0;
+    right:0;
+    border:0;
+    outline:0;
+    background:transparent;
+    width:100%;
+    height:30px;
+    margin:0;
+    padding:0px 55px 0px 20px;
+    font-size:1em;
+    color:#dcddd8;
+}
+.purple-top .searchbox-input{
+    color:#fff
+}
+.searchbox-input::-webkit-input-placeholder {
+    color: #dcddd8;
+}
+.searchbox-input:-moz-placeholder {
+    color: #dcddd8;
+}
+.searchbox-input::-moz-placeholder {
+    color: #dcddd8;
+}
+.searchbox-input:-ms-input-placeholder {
+    color: #dcddd8;
+}
+
+.searchbox-icon,
+.searchbox-submit{
+    width:30px;
+    height:30px;
+    display:block;
+    position:absolute;
+    top:0;
+    font-family:verdana;
+    font-size:22px;
+    right:0;
+    padding:0;
+    margin:0;
+    border:0;
+    outline:0;
+    line-height:30px;
+    text-align:center;
+    cursor:pointer;
+    color:#dcddd8;
+    background:transparent;
+}
+
+
+
+.searchbox-open{
+    width:50%;
+}
+
+.byline{
+  position:absolute;
+  top:150px;
+  left:30%;
+  text-align:center;
+  font-size:18px;
+}
+.byline a{
+  text-decoration:none;
+  color: #dcddd8;
+}
+
+.top-search-visible{
+    width:80%;
+    margin:0 auto;
+    display:block;
+    background-color:red;
+}

@@ -1,0 +1,277 @@
+@media (max-width: 575.98px) {
+    
+    .switch-lang{
+        float:none;
+    }
+    /* On Scroll - Fixed Top Bar */
+    .mobile-purple-top{
+        background-color: #752F8A;
+        color:#fff;
+        min-height:55px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        
+        position:fixed;
+        width:100%;
+        z-index:100;
+    }
+    .purple-top{
+        background-color: #752F8A;
+        color:#fff;
+        min-height:55px !important;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .mobile-purple-top .navbar-nav li a, .mobile-purple-top .login-icon, .mobile-purple-top .search-btn, .mobile-purple-top .vr{
+        color:#fff;
+    }
+    
+    .mobile-purple-top .otm-logo{
+        background:url(app/header/icons/otmlogo-white.svg) left no-repeat !important;
+        height:1.3em;
+        display: flex;
+        background-size:contain !important;
+    }
+    .purple-top .otm-logo{
+        background:url(app/header/icons/otmlogo-white.svg) left no-repeat !important;
+        height:1.3em !important;
+    }
+    
+    .mobile-purple-top .search-btn::before{
+        content:'';
+        display:inline-block;
+        background:url(app/header/icons/search-white.svg) center no-repeat;
+        background-size:contain;
+        height:1em;
+        width:1em;
+        vertical-align: middle;
+        margin-right:.5em;
+    }
+    
+    .mobile-purple-top .login-icon::before{
+        content:'';
+        display:inline-block;
+        background:url(app/header/icons/login-white.svg) center no-repeat;
+        background-size:contain;
+        height:1.5em;
+        width:1.5em;
+        vertical-align: middle;
+        margin-right:.5em;
+    }
+    
+    .mobile-purple-top .vr{
+        background:url(app/header/icons/line-white.svg) center no-repeat;
+    }
+    .main-carousel{
+        padding-top:0;
+    }
+    /*.fixed-top-search{
+        position: fixed !important;
+        top: 65px;
+        right: 1em;
+        float-right: 0;
+        z-index: 15;
+        
+        width: 90%;
+        background-color: #F2F2F2;
+        border-radius: 5px;
+        padding: .4em;
+    }*/
+    .fixed-top-search {
+        position: fixed !important;
+        top: 65px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        float-right: 0;
+        z-index: 15;
+        width: 90%;
+        background-color: #F2F2F2;
+        border-radius: 5px;
+        padding: .4em;
+    }
+    .fixed-top-search .searchbox-icon{
+        top:5px !important;
+    }
+    .searchbox-open{
+        width:80% !important;
+    }
+    .fixed-top-search .searchbox-input{
+        font-size:.8em;
+    }
+    
+    /* --------------------
+    H e a d e r
+    -------------*/
+    .main-carousel {
+        background-position-x: -530px;
+    }
+    .slide-info h1 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    
+    .main-carousel small {
+        font-size: 1em;
+        text-align: center;
+        display: block;
+        margin-bottom: 0;
+    }
+    
+    .slide-info button {
+        padding: .8em 1em;
+        border-radius: 5px;
+        width: 17em;
+        font-size: 14px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    
+    /*---------------
+    Section 2
+    ---------------*/
+    .otm-h2-icon::before {
+        height: 2em;
+        width: 2em;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+    .otm-h2-icon, .otm-h2{
+        font-size:16px;
+    }
+    .about-otm p {
+        font-size: 16px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    /*--------------------------------
+    Background breaker - Girl Exercise
+    ----------------------------------*/
+    .breaker-home {
+        height: 200px;
+        display: flex;
+        background-attachment: inherit;
+        background-size: auto 100%;
+    }
+    
+    /*-------------------------------
+    The Team
+    ---------*/
+    .the-team .otm-h2 {
+        font-size: 24px;
+    }
+    .team-member .card-text {
+        margin-bottom: 3em;
+    }
+    .company-position::before {
+        height: 1.5em;
+        width: 1.5em;
+    }
+    
+    /*--------------
+    Are you ready?
+    --------------*/
+    .ready .otm-h2{
+        font-size:24px;
+    }
+    
+    /* Plans */
+    .plan h5{
+        font-size:.9em;
+    }
+    .plan h5::before {
+        height: 2.2em;
+        width: 2em;
+    }
+    .plan h3{
+        font-size:1.5em;
+    }
+    .plan p{
+        margin-bottom:0;
+    }
+    .ready .owl-nav, .ready .owl-dots{
+        display:none !important;
+    }
+    
+    .owl-item{
+        width:300px;
+    }
+    
+    .ready button{
+        padding: .8em 1em;
+    border-radius: 5px;
+    width: 17em;
+    font-size: 14px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    }
+    
+    /*----------
+    Newsletter
+    -----------*/
+    .newsletter {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .newsletter h2 {
+        font-size: 1.5em;
+    }
+    .newsletter h2 span {
+        font-size: .6em;
+    }
+    .submit-newsletter {
+        padding: .8em 1em;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 14px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        margin-top: 2em;
+    }
+    
+    /*-------
+    Footer
+    --------*/
+    footer{
+        background-color:#2F004F;
+        min-height:100px;
+        height:100%;
+    }
+    footer .copyright {
+        color: #fff;
+        font-weight: 500;
+        width: 95%;
+        display: flex;
+        border-top: 1px solid #fff;
+        margin: 0 auto;
+        margin-top: 2em;
+        padding-top: 2em;
+    }
+    .footer-nav {
+        display: block;
+        height:auto;
+    }
+    .footer-nav li {
+        float: none;
+    }
+    .footer-nav a {
+        color: #ffffff;
+    }
+    footer .switch-lang {
+        float: left;
+        padding-left: 0;
+        margin-top: 1em;
+        margin-bottom: 4em;
+    }
+
+}

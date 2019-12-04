@@ -1,0 +1,68 @@
+.banner-create-account{
+    display:flex;
+    height:350px;
+    width:100%;
+    background-color:#752F8A;
+    
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(
+      rgba(47, 0, 79, 0.45), 
+      rgba(47, 0, 79, 0.45)
+    ),url(/assets/images/banner-ca.png) center no-repeat;
+    background-size:cover;
+}
+.banner-create-account h2, .banner-create-account p{
+    color:#fff;
+    text-align: center;
+    font-family: "Montserrat"
+}
+.banner-create-account h2{
+    font-size:32px;
+    font-weight: bold
+}
+.banner-create-account p{
+    font-size:18px;
+    font-weight:400;
+}
+/* Form */
+.create-account form{
+    margin:0 auto;
+    margin-top:2em;
+    margin-bottom: 4em;
+}
+
+.create-account form label{
+    margin-top:1em;
+}
+
+.create-account form p{
+    color:#999999;
+    font-size:14px;
+    text-align:center;
+}
+.create-account form p a{
+    color:#752F8A;
+}
+.form-check{
+    margin-top:1em;
+}
+.form-check label{
+    margin-top:0 !important;
+}
+
+.submit-newsletter{
+    width:100%;
+}
+
+@media (max-width: 575.98px) {
+    .banner-create-account{
+        height:200px;
+    }
+    .banner-create-account h2{
+        font-size:24px;
+    }
+    .banner-create-account p{
+        font-size:16px;
+    }
+}

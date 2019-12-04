@@ -1,0 +1,81 @@
+.about h3{
+    margin-top:2em;
+    font-family: "Montserrat";
+    font-weight:500;
+    font-size:14px;
+    color:#999999;
+}
+
+.about h2{
+    font-family: "Montserrat";
+    font-weight:bold;
+    font-size:32px;
+    color:#752F8A;
+    margin-bottom: .3em;
+    padding-bottom: 0;
+}
+
+.about .author-data{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size:10px;
+    color:#333333;
+    margin-bottom: 2em;
+    display:block;
+}
+
+.meet-team{
+    margin-top:2em;
+    margin-bottom:2em;
+}
+
+.about .picture{
+    display:block;
+    margin:0 auto;
+    width:180px;
+    height:180px;
+    background-color:#ACA5A5;
+    border-radius:50%;
+}
+
+.meet-team .text{
+    color:#999999;
+    font-size:14px;
+}
+
+.meet-team h3{
+    color:#752F8A;
+    font-size:18px;
+    margin-bottom: 2em;
+    margin-top:0;
+}
+
+.valentina{
+    background:url(src/assets/images/valentina.jpeg) center no-repeat;
+    background-size:cover;
+}
+
+.mono{
+    background:url('src/assets/images/mono.jpeg') center no-repeat;
+    background-size:cover;
+}
+.tania{
+    background:url('src/assets/images/tania.jpeg') center no-repeat;
+    background-size:cover;
+}
+
+/* Mobile */
+@media (max-width: 575.98px) {
+    
+    .about-inner{
+        margin-top:7em;
+        padding-left:2em;
+        padding-right:2em;
+    }
+    .about .picture{
+        margin-bottom:2em;
+    }
+    .meet-team h3, .meet-team .text{
+        text-align:center;
+    }
+}

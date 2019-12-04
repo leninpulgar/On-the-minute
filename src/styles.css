@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
+*, html{
+    font-family: "Montserrat";
+}
 /* General */
 .cn {
     display: flex;
@@ -163,6 +167,19 @@ button.login:hover{
 -moz-box-shadow: 14px 10px 5px 0px rgba(214,214,214,1);
 box-shadow: 14px 10px 5px 0px rgba(214,214,214,1);
 margin:0 auto;
+}
+
+.valentina{
+    background:url('/assets/images/valentina.jpeg') center no-repeat;
+    background-size:cover;
+}
+.mono{
+    background:url('/assets/images/mono.jpeg') center no-repeat;
+    background-size:cover;
+}
+.tania{
+    background:url('/assets/images/tania.jpeg') center no-repeat;
+    background-size:cover;
 }
 
 .team-member h5{
@@ -425,4 +442,29 @@ footer .copyright{
 .footer-nav a{
     color:#999999;
     font-weight:500;
+}
+
+.switch-lang{
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+    margin: 0;
+}
+
+.lang-flags{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-color:red;
+    border-radius:50%;
+    float:left;
+    margin-left:1em;
+}
+.usa-flag{
+    background: url(src/app/header/icons/usa-flag.svg) center no-repeat;
+    background-size:contain;
+}
+.spain-flag{
+    background: url(src/app/header/icons/spain-flag.svg) center no-repeat;
+    background-size:contain;
 }

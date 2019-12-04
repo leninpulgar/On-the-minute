@@ -37,25 +37,25 @@
 </header>
 -->
 
-<header class="">
+<header class="mobile-purple-top main-header">
     <div class="container">
 <nav class="navbar navbar-expand-sm bsnav navbar-dark">
     
-    <a class="navbar-brand otm-logo" href="#"><span class="invisible">{{ title }}</span></a>
+    <a class="navbar-brand otm-logo" routerLink="/"><span class="invisible">{{ title }}</span></a>
     <button class="navbar-toggler toggler-spring"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse justify-content-sm-end">
         <ul class="navbar-nav navbar-mobile mr-0">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Programs</a>
+                <a class="nav-link" routerLink="/programs">Programs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">About</a>
+                <a class="nav-link" routerLink="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#">Blog</a>
+                <a class="nav-link" routerLink="/blog">Blog</a>
             </li>
         </ul>
 
@@ -66,18 +66,24 @@
             </form>-->
             <!-- Search Expand -->
             <form class="searchbox">
-                    <input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+                    <input type="search" placeholder="Search articles, food, fitness, yoga…" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
                     <input type="submit" class="searchbox-submit" value="">
                     <button class="search-btn searchbox-icon" type="submit">Search</button>
                 </form>
             <!-- Search Expand END -->
             <div class="vr"></div>
-            <a href="http://" class="login-icon">Log in</a>
+            <a routerLink="/login" class="login-icon">Log in</a>
         </div>
     </div>
 </nav>
 </div>
 </header>
+
+<form class="d-block d-sm-block d-md-none fixed-top-search">
+        <input type="search" placeholder="Search articles, food, fitness, yoga…" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+        <input type="submit" class="searchbox-submit" value="">
+        <button class="search-btn searchbox-icon" type="submit"><span class="invisible">Search</span></button>
+</form>
 
 <div class="bsnav-mobile">
     <div class="bsnav-mobile-overlay">

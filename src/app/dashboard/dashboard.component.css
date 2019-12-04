@@ -1,0 +1,190 @@
+.dashboard-content{
+    margin-top:2em;
+}
+
+.dashboard-title{
+    color:#752F8A;
+    font-size:32px;
+    font-weight:bold;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+.dashboard-title span{
+    color:#999999;
+    font-size:24px;
+    font-weight:500;
+}
+
+/* Video */
+.video-container{
+    height:430px;
+    width:100%;
+    background-color:gray;
+}
+
+.post-card{
+    margin-bottom: 2em
+}
+.post-card h5{
+    font-family: "Montserrat";
+    font-size:18px;
+    color:#752F8A;
+    font-weight:600;
+}
+
+.post-card p{
+    font-family: "Montserrat";
+    font-size:10px;
+    font-weight:500;
+    color:#333333;
+}
+
+/* * * * ** * * *
+CALENDAR
+ ************/
+/* ---------- CALENDAR ---------- */
+
+.calendar {
+	text-align: center;
+}
+
+.calendar header {
+	position: relative;
+	background-color:#752F8A;
+	border-radius:5px 5px 0 0;
+	padding:1em;
+}
+
+.calendar h2 {
+	text-transform: uppercase;
+	color:#fff;
+	font-size:18px;
+}
+
+.calendar thead {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.calendar tbody {
+	color: #7c8a95;
+}
+
+.calendar tbody td:hover {
+	border: 2px solid #00addf;
+}
+
+.calendar td {
+	border: 2px solid transparent;
+	border-radius: 50%;
+	display: inline-block;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	width: 2em;
+}
+
+.calendar table{
+    margin: 0 auto;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+	color: #cbd1d2;
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+	border: 2px solid #cbd1d2;
+}
+
+.current-day {
+	background: #00addf;
+	color: #f9f9f9;
+}
+
+.event {
+	cursor: pointer;
+	position: relative;
+}
+
+.event:after {
+	background: #00addf;
+	border-radius: 50%;
+	bottom: .5em;
+	display: block;
+	content: '';
+	height: .5em;
+	left: 50%;
+	margin: -.25em 0 0 -.25em;
+	position: absolute;
+	width: .5em;
+}
+
+.event.current-day:after {
+	background: #f9f9f9;
+}
+
+.btn-prev,
+.btn-next {
+	border: 2px solid #cbd1d2;
+	border-radius: 50%;
+	color: #cbd1d2;
+	height: 2em;
+	font-size: .75em;
+	line-height: 2em;
+	margin: -1em;
+	position: absolute;
+	top: 50%;
+	width: 2em;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+	background: #cbd1d2;
+	color: #f9f9f9;
+}
+
+.btn-prev {
+	left: 1em;
+}
+
+.btn-next {
+	right: 1em;
+}
+
+/*meal plan */
+.meal-plan{
+	width:100%;
+	height:270px;
+	display:flex;
+	background:url(src/assets/images/meal-plan.png) center no-repeat;
+	background-size:cover;
+	
+	justify-content:center;
+	align-items:center;
+}
+
+.meal-plan a{
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	border:2px solid #fff;
+	border-radius:5px;
+	padding:.5em;
+}
+
+@media (max-width: 575.98px){
+	.dashboard-carousel{
+		width:90%;
+		margin:0 auto;
+		margin-top:2em;
+	}
+	
+	.dashboard-carousel > .owl-nav{
+		display:none !important;
+	}
+	.show-on-md{
+		display:none;
+	}
+}
